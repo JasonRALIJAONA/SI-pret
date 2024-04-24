@@ -67,6 +67,10 @@ form h3{
     text-align: center;
 }
 
+form a{
+    color: #1845ad;
+}
+
 label{
     display: block;
     margin-top: 30px;

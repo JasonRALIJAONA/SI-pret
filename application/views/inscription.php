@@ -16,7 +16,10 @@
     </div>
 
     <?php echo form_open('customer/research'); ?>
-        <h3>Connection</h3>
+        <h3>Inscription</h3>
+
+        <label for="username">Nom</label>
+        <input type="text" placeholder="Nom" id="username" name="nom">
 
         <label for="username">Email</label>
         <input type="email" placeholder="Email" id="username" name="email">
@@ -24,9 +27,9 @@
         <label for="password">Mot de Passe</label>
         <input type="password" placeholder="Password" id="password" mame="mdp">
 
-        <button type="submit">Se connecter</button>
+        <button type="submit">S' inscrire</button>
 
-        <?php echo anchor('/login/inscription', 'S\'inscrire'); ?>
+        <?php echo anchor('/login', 'Se Connecter'); ?>
 
     <?php echo form_close(); ?>
 
