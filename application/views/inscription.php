@@ -15,7 +15,7 @@
         <div class="shape"></div>
     </div>
 
-    <?php echo form_open('customer/research'); ?>
+    <?php echo form_open('login/sign'); ?>
         <h3>Inscription</h3>
 
         <label for="username">Nom</label>
@@ -25,7 +25,7 @@
         <input type="email" placeholder="Email" id="username" name="email">
 
         <label for="password">Mot de Passe</label>
-        <input type="password" placeholder="Password" id="password" mame="mdp">
+        <input type="password" placeholder="Mot de Passe" id="password" name="mdp">
 
         <button type="submit">S' inscrire</button>
 

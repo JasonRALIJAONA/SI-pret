@@ -15,14 +15,14 @@
         <div class="shape"></div>
     </div>
 
-    <?php echo form_open('customer/research'); ?>
+    <?php echo form_open('login/log'); ?>
         <h3>Connection</h3>
 
         <label for="username">Email</label>
         <input type="email" placeholder="Email" id="username" name="email">
 
         <label for="password">Mot de Passe</label>
-        <input type="password" placeholder="Password" id="password" mame="mdp">
+        <input type="password" placeholder="Mot de passe" id="password" mame="mdp">
 
         <button type="submit">Se connecter</button>
 
