@@ -22,7 +22,7 @@
         <input type="email" placeholder="Email" id="username" name="email">
 
         <label for="password">Mot de Passe</label>
-        <input type="password" placeholder="Mot de passe" id="password" mame="mdp">
+        <input type="password" placeholder="Mot de passe" id="password" name="mdp">
 
         <button type="submit">Se connecter</button>
 
