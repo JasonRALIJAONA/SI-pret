@@ -1,6 +1,6 @@
     <footer class="py-5 bg-dark" style="position: fixed; width:100%; bottom:0">
         <div class="container">
-            <p class="m-0 text-center text-white">Copyright © Jason RALIJAONA</p>
+            <p class="m-0 text-center text-white">Copyright © ETU002362 - ETU002529</p>
         </div>
         <!-- /.container -->
     </footer>
